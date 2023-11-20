@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+import matplotlib as plt
 
 url = 'https://storage.googleapis.com/scsu-data-science/tips.csv'
 df = pd.read_csv(url)
